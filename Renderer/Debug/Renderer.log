@@ -1,0 +1,17 @@
+﻿  Window.cpp
+f:\dev\renderer\dependencies\glfw\include\glfw\glfw3.h(789): warning C4099: 'GLFWwindow': nombre de tipo visto anteriormente usando 'class' ahora se ve usando 'struct'
+  f:\dev\renderer\renderer\src\window.h(3): note: vea la declaración de 'GLFWwindow'
+f:\dev\renderer\renderer\src\window.cpp(37): warning C4800: 'int': forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+  VertexBufferObject.cpp
+  VertexArrayObject.cpp
+  Shader.cpp
+  Application.cpp
+f:\dev\renderer\dependencies\glfw\include\glfw\glfw3.h(789): warning C4099: 'GLFWwindow': nombre de tipo visto anteriormente usando 'class' ahora se ve usando 'struct'
+  f:\dev\renderer\renderer\src\window.h(3): note: vea la declaración de 'GLFWwindow'
+f:\dev\renderer\renderer\src\application.cpp(38): warning C4305: 'argumento': truncamiento de 'double' a 'GLclampf'
+  Generando código...
+LINK : warning LNK4098: la biblioteca predeterminada'LIBCMT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+LINK : warning LNK4098: la biblioteca predeterminada'MSVCRT' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+glew32s.lib(glew.obj) : warning LNK4099: no se encontró PDB 'vc120.pdb' con 'glew32s.lib(glew.obj)' o en 'F:\dev\Renderer\Debug\vc120.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+  Renderer.vcxproj -> F:\dev\Renderer\Debug\Renderer.exe
+  Renderer.vcxproj -> F:\dev\Renderer\Debug\Renderer.pdb (Partial PDB)
